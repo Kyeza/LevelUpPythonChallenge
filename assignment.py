@@ -1,17 +1,17 @@
 def grade(grade_list):
     for x in grade_list:
         if 100 >= x >= 90:
-            print('Excellent')
+            print(f'{x}: Excellent')
         elif 89 >= x >= 70:
-            print('Very good')
+            print(f'{x}: Very good')
         elif 69 >= x >= 60:
-            print('Good')
+            print(f'{x}: Good')
         elif 59 >= x >= 40:
-            print('Poor')
+            print(f'{x}: Poor')
         elif 39 >= x >= 20:
-            print('Very poor')
+            print(f'{x}: Very poor')
         else:
-            print('Repeat')
+            print(f'{x}: Repeat')
     print('-' * 20, '\n')
 
 
